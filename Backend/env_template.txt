@@ -1,0 +1,67 @@
+# IT Inventory System Environment Configuration
+# Copy this file to .env and update with your actual values
+
+# Email Service Configuration
+# ==========================
+
+# SMTP Server Settings
+SMTP_SERVER=smtp.gmail.com
+SMTP_PORT=587
+SMTP_USERNAME=your-email@gmail.com
+SMTP_PASSWORD=your-app-password
+
+# Email Sender Information
+SENDER_EMAIL=your-email@gmail.com
+SENDER_NAME=IT Inventory System
+
+# Application URLs
+LOGIN_URL=http://localhost:3000/login
+
+# Database Configuration (if needed)
+# =================================
+DATABASE_URL=sqlite:///./it_inventory.db
+
+# Security Settings
+# ================
+SECRET_KEY=your-secret-key-here
+ALGORITHM=HS256
+ACCESS_TOKEN_EXPIRE_MINUTES=30
+
+# Email Provider Examples:
+# =======================
+
+# Gmail Configuration:
+# SMTP_SERVER=smtp.gmail.com
+# SMTP_PORT=587
+# SMTP_USERNAME=your-email@gmail.com
+# SMTP_PASSWORD=your-16-digit-app-password
+
+# Outlook/Hotmail Configuration:
+# SMTP_SERVER=smtp-mail.outlook.com
+# SMTP_PORT=587
+# SMTP_USERNAME=your-email@outlook.com
+# SMTP_PASSWORD=your-password
+
+# Yahoo Configuration:
+# SMTP_SERVER=smtp.mail.yahoo.com
+# SMTP_PORT=587
+# SMTP_USERNAME=your-email@yahoo.com
+# SMTP_PASSWORD=your-app-password
+
+# Custom SMTP Configuration:
+# SMTP_SERVER=mail.yourdomain.com
+# SMTP_PORT=587
+# SMTP_USERNAME=noreply@yourdomain.com
+# SMTP_PASSWORD=your-password
+
+# SendGrid Configuration:
+# SMTP_SERVER=smtp.sendgrid.net
+# SMTP_PORT=587
+# SMTP_USERNAME=apikey
+# SMTP_PASSWORD=your-sendgrid-api-key
+
+# Mailgun Configuration:
+# SMTP_SERVER=smtp.mailgun.org
+# SMTP_PORT=587
+# SMTP_USERNAME=postmaster@yourdomain.mailgun.org
+# SMTP_PASSWORD=your-mailgun-password 

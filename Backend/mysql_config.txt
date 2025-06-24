@@ -1,0 +1,18 @@
+# MySQL Configuration for IT Inventory App
+# Copy the following content to create a .env file in the Backend directory
+
+DB_TYPE=mysql
+DB_HOST=localhost
+DB_PORT=3306
+DB_NAME=it_inventory_db
+DB_USER=inventory_user
+DB_PASSWORD=your_secure_password
+
+# Instructions:
+# 1. Create a file named .env in the Backend directory
+# 2. Copy the above DB_* lines to the .env file
+# 3. Replace 'your_secure_password' with your actual MySQL password
+# 4. If using root user, change DB_USER to 'root'
+# 5. Save the .env file
+
+# Note: The .env file will be ignored by git for security reasons 
